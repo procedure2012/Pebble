@@ -19,9 +19,9 @@ This repository is under active development. Many features are TODO.
 - [ ] **pebble/lsm/memtable.py:3** - flush to SSTable when size exceeds threshold
 - [ ] **pebble/lsm/memtable.py:4** - use a skip list for ordered iteration
 - [ ] **pebble/lsm/sstable.py:3** - add a bloom filter to skip absent keys
+- [ ] **pebble/lsm/sstable.py:4** - memory-map the data block region
 - [ ] **pebble/lsm/sstable.py:8** - merge tombstones during compaction
 - [ ] **pebble/wal/log.py:2** - checksum each record with crc32
-- [ ] **pebble/wal/log.py:10** - support group commit batching
 
 ## 🤝 Contributing
 
